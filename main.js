@@ -17,9 +17,12 @@
 // console.log("false");
 // }
 
-const selectNumbers = prompt("select 20 random numbers by writting them in the prompt");
+for (let i = 0; i < 20; i++) {
+prompt("select 20 random numbers by writing them in the prompt");
 
-const selectedNumbers = [];
+}
+
+let selectedNumbers = [];
 
 for (let i = 0; i < 20; i++) {
 function getNumber(max) {
@@ -29,4 +32,3 @@ console.log(getNumber(selectedNumbers));
 }
 
 const numberPrompt = prompt("write the higher number shown in the console");
-const correctNumber = ;
